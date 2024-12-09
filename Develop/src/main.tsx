@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/SavedCandidates',
-        element: <SavedCandidates />,
+        element: <SavedCandidates savedCandidates={[]} />,
       },
     ],
   },
